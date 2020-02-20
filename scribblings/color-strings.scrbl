@@ -1,11 +1,11 @@
 #lang scribble/manual
-@require[@for-label[color-strings]
+@require[@for-label[colors-as-strings]
         scribble/extract]
 
-@title{color-strings}
+@title{colors-as-strings}
 @author{thoughtstem}
 
-@defmodule[color-strings]
+@defmodule[colors-as-strings]
 
 This just provides, as identifiers, strings that correspond to colors in the @racket[racket/draw] color database. 
 
@@ -14,7 +14,7 @@ So you can do, for example:
 @codeblock{
   #lang racket
  
-  (require 2htdp/image color-strings)
+  (require 2htdp/image colors-as-strings)
 
   (circle 40 'solid red)
 }
